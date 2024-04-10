@@ -79,6 +79,15 @@ p {
   cursor: pointer;
   opacity: 0.6;
 }
+#section1-part2 {
+    width: 94%;
+}
+#section1-part2 > h2 {
+    margin-bottom: 3vh;
+}
+#section1-part2 > p {
+    margin-bottom: 10vh;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
