@@ -88,17 +88,21 @@ button {
 #section1-part2 > p {
   margin-bottom: 10vh;
 }
-#section2 {
-  position: relative;
-}
 #section2-part1 {
   display: flex;
-  gap: 10vw;
   position: relative;
 }
+
 #section2-part1 > img {
-  position: fixed;
-  z-index: 1000;
+  width: 100%;
+}
+
+#section2-part1 > .image-container {
+  width: 100%; /* Set the width of the container to show only the right 80% */
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0; /* Adjust the left position to align the container */
 }
 #section2-part2 {
 }
