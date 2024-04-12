@@ -38,7 +38,9 @@ h3 {
 p {
   color: var(--Grayish-Blue);
 }
-#section1 {
+
+/* Section 1 */
+/* #section1 {
   margin-top: 15vh;
   text-align: center;
   width: 35%;
@@ -87,8 +89,10 @@ button {
 }
 #section1-part2 > p {
   margin-bottom: 10vh;
-}
-#section2-part1 {
+} */
+
+/* Section 2 */
+/* #section2-part1 {
   display: flex;
 }
 #section2-part1 > .image-container {
@@ -109,12 +113,117 @@ button {
   line-height: 2.5vh;
 }
 #section2-part2 {
-  
-}
-.attribution {
-  font-size: 11px;
+  margin: 15vh 0vw;
   text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+#section2-part2 > h2 {
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+.section2-part2-p {
+  margin: 0 34vw;
+} */
+
+/* Section 3 */
+/* #section3 {
+  text-align: center;
+  margin-bottom: 20vh;
+}
+#section3 h2 {
+  font-size: 2vw;
+  margin-bottom: 2vh;
+}
+#section3-part1-content {
+  margin-top: 5vh;
+  margin-bottom: 8vh;
+}
+#section3-part2 {
+  display: flex;
+  gap: 3vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cards {
+  width: 20%;
+}
+.cards img {
+  margin-bottom: 5vh;
+}
+.cards h3 {
+  margin-bottom: 2vh;
+}
+.cards p {
+  line-height: 4vh;
+} */
+/* Section 4 */
+/* #section4 {
+  text-align: center;
+}
+#section4 h2 {
+  font-size: 3vw;
+  font-weight: 600;
+  margin-bottom: 3vh;
+}
+#section4-part1 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10vw;
+  margin-bottom: 20vh;
+}
+#section4-part2 p {
+  margin: 0 30vw;
+  margin-bottom: 5vh;
+}
+#section4-part2 button {
+  width: 15vw;
+  height: 6vh;
+  font-size: 1vw;
+  box-shadow: 10px 10px 10px rgba(127, 124, 124, 0.329);
+} */
+
+/* Footer */
+/* footer {
+  background-color: rgba(172, 172, 197, 0.425);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 20vh;
+}
+.footer-img {
+  width: 60px;
+}
+.footer-about {
+  display: flex;
+  gap: 10vw;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+.footer-content b {
+  font-weight: 500;
+  color: var(--Dark-Grayish-Blue);
+  margin-bottom: 1vw;
+}
+.social-links {
+  display: flex;
+  gap: 2vw;
+} */
+@media (min-width: 375px and max-width: 800px) {
+  #back-img {
+    background-image: url(./images/bg-header-mobile.png);
+  }
+  /* Section 1 */
+  #section1 {
+    margin-top: 15vh;
+    text-align: center;
+    width: 100%;
+  }
+  #section1-part1 > h1 {
+    font-weight: 600;
+    margin-bottom: 2vh;
+  }
+  #section1-part1 > p {
+
+  }
 }
