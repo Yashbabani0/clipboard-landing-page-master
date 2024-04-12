@@ -90,21 +90,26 @@ button {
 }
 #section2-part1 {
   display: flex;
-  position: relative;
 }
-
-#section2-part1 > img {
-  width: 100%;
-}
-
 #section2-part1 > .image-container {
-  width: 100%; /* Set the width of the container to show only the right 80% */
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0; /* Adjust the left position to align the container */
+  margin-right: 10vw;
+}
+#content {
+  width: 20%;
+  padding: 2vh 0;
+}
+.content-cards {
+  margin: 4vh 0;
+}
+#content h3 {
+  font-weight: 600;
+  margin-bottom: 1.5vh;
+}
+#content p {
+  line-height: 2.5vh;
 }
 #section2-part2 {
+  
 }
 .attribution {
   font-size: 11px;
