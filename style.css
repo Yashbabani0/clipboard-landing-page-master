@@ -54,7 +54,7 @@ p {
   cursor: pointer;
   opacity: 0.6;
 }
-@media (min-width: 801px) {
+@media (min-width: 1201px) {
   /* Section 1 */
   #section1 {
     margin-top: 15vh;
@@ -213,7 +213,7 @@ p {
     gap: 2vw;
   }
 }
-@media (min-width: 375px) and (max-width: 800px) {
+@media (min-width: 375px) and (max-width: 1200px) {
   #back-img {
     background-image: url(./images/bg-header-mobile.png);
   }
@@ -234,6 +234,7 @@ p {
     margin: 0 16vw;
   }
 
+  /* Section 2 */
   .big-img {
     width: 90%;
   }
@@ -264,7 +265,75 @@ p {
   #content p {
     line-height: 3vh;
   }
-  button {
+  #section2-part2 > h2 {
+    font-weight: 600;
+    margin: 0 20vw;
+    margin-top: 10vh;
+  }
+  .section2-part2-p {
+    margin: 0 15vw;
+    margin-top: 3vh;
+    margin-bottom: 8vh;
+    line-height: 3.5vh;
+  }
+
+  /* Section 3 */
+  #section3 {
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  #section3 h2 {
+    font-size: 5vw;
+    margin: 0 20vw;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  #section3-part1-content {
+    margin-bottom: 8vh;
+  }
+  .cards {
+    margin-top: 6vh;
+  }
+  .cards img {
+    margin-bottom: 5vh;
+  }
+  .cards h3 {
+    margin-bottom: 2vh;
+  }
+  .cards p {
+    line-height: 4vh;
+    margin: 0 15vw;
+  }
+
+  /* Section 4 */
+  #section4 {
+    text-align: center;
+  }
+  #section4-part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+  }
+  #section4-part1:nth-child(1) {
+    margin-bottom: 15vh;
+  }
+  #section4  img{
+    width: 20%;
+  }
+  #section4 h2 {
+    font-size: 5vw;
+    font-weight: 600;
+    margin: 0 20vw;
+    margin-bottom: 3vh;
+  }
+  #section4-part2 p {
+    margin: 0 15vw;
+    margin-bottom: 5vh;
+    line-height: 3vh;
+  }
+   button {
     color: white;
     height: 6vh;
     width: 90%;
@@ -277,5 +346,36 @@ p {
     text-align: center;
     justify-content: center;
     margin: 5vh auto;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(172, 172, 197, 0.425);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4vh 0;
+  }
+  .footer-img {
+    width: 40px;
+    margin-bottom: 3vh;
+  }
+  .footer-about *{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content b {
+    font-weight: 500;
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 3vw;
+  }
+  .footer-about {
+    margin-bottom: 4vh;
+  }
+  .social-links {
+    display: flex;
+    gap: 10vw;
   }
 }
